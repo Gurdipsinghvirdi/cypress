@@ -8,6 +8,5 @@ describe('Cypress session', function() {
     cy.get('input[name=email]').type('gurdip.singh@seera.sa')
     cy.get('[type="checkbox"]').check(['Prpoposal', 'Abstract'],{ force: true })
     cy.get('[type="submit"]').click()
-    
     });
 });
